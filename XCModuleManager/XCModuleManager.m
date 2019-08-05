@@ -58,6 +58,16 @@
 
 #pragma mark - UIApplicationDelegate's methods
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    for (id<FRDModule> module in self.modules) {
+        if ([module respondsToSelector:_cmd]) {
+            [module application:application willFinishLaunchingWithOptions:launchOptions];
+        }
+    }
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     for (id<XCModule> module in self.modules) {
