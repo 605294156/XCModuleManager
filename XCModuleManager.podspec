@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint XCModuleManagerEncryptor.podspec' to ensure this is a
+#  Be sure to run `pod spec lint XCModuleManager.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "XCModuleManagerEncryptor"
-  spec.version      = "2.0.1"
-  spec.summary      = "xc a XCModuleManagerEncryptor"
+  spec.name         = "XCModuleManager"
+  spec.version      = "2.0.2"
+  spec.summary      = "一个管理AppDelegate的框架 作者：成"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
