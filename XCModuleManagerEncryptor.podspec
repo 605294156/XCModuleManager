@@ -26,6 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
                     1、高效管理 AppDelegate
+                    2、增加 AppDelegate 方法
                    DESC
 
   spec.homepage     = "https://github.com/605294156/XCModuleManager.git"
