@@ -22,6 +22,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[[self class] alloc] init];
+        [instance loadModulesWithPlistFile:@"XCModulesRegister"];
     });
     return instance;
 }
