@@ -22,8 +22,6 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[[self class] alloc] init];
-        NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"XCModulesRegister" ofType:@"plist"];
-        [instance loadModulesWithPlistFile:plistPath];
     });
     return instance;
 }

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XCModuleManager"
-  spec.version      = "2.2.0"
+  spec.version      = "2.2.2"
   spec.summary      = "一个管理AppDelegate的框架 作者：成"
 
   # This description is used to generate tags and improve search results.
@@ -29,8 +29,6 @@ Pod::Spec.new do |spec|
                     2、增加 AppDelegate 方法
                     3、全面增加 AppDelegate 方法
                     4、删除 AppDelegate 弃用的方法
-	                5、优化初始化plist文件
-                    6、修改获取本地plist文件失败问题
                    DESC
 
   spec.homepage     = "https://github.com/605294156/XCModuleManager.git"

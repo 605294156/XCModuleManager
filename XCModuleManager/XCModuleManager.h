@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface XCModuleManager : NSObject<UIApplicationDelegate>
 + (instancetype)sharedInstance;
 
+- (void)loadModulesWithPlistFile:(NSString *)plistFile;
+
 - (NSArray<id<XCModule>> *)allModules;
 @end
 
